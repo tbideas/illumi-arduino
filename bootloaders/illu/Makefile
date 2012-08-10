@@ -81,7 +81,7 @@ BOARD = USER
 #     does not *change* the processor frequency - it should merely be updated to
 #     reflect the processor speed set externally so that the code can use accurate
 #     software delays.
-F_CPU = 16000000
+F_CPU = 8000000
 
 
 # Input clock frequency.
@@ -123,7 +123,7 @@ OBJDIR = .
 
 
 # Path to the LUFA library
-LUFA_PATH = ../../../../../LUFA-111009
+LUFA_PATH = ../../../LUFA-111009
 
 
 # LUFA library compile-time options and predefined tokens
