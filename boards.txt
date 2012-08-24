@@ -13,6 +13,6 @@ illumi02.bootloader.lock_bits=0x2F
 illumi02.build.mcu=atmega32u4
 illumi02.build.f_cpu=8000000L
 illumi02.build.vid=0x2341
-illumi02.build.pid=0x0036
+illumi02.build.pid=0x8036
 illumi02.build.core=illumi
 illumi02.build.variant=illumi
