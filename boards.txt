@@ -9,7 +9,10 @@ illumi02.bootloader.high_fuses=0xd8
 # Arduino Leonardo has extended fuse 0xCB
 # but we want 0xCE to lower the brown-out detection level
 illumi02.bootloader.extended_fuses=0xce
-illumi02.bootloader.path=illu
+# This must be named 'caterina' because this value is hard-coded in 
+# the Arduino IDE and will let the IDE know that it needs to reset the
+# board by opening/closing at 1200bps
+illumi02.bootloader.path=caterina
 illumi02.bootloader.file=Caterina.hex
 illumi02.bootloader.unlock_bits=0x3F
 illumi02.bootloader.lock_bits=0x2F
